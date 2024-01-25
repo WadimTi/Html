@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+           margin: 0; 
+        }
+        
+        .container{
+            width: 400px;
+            margin: auto;
+        }
+
+        .box{
+            background-color: blue;
+            color: aliceblue;
+            font-style: oblique;
+            padding: 15px;
+            
+
+            border: 4px solid red;
+
+            margin: 10px;
+        }
+        
+        .blocks{
+            width: 100%;
+        }
+
+        .blocks .block{
+           width: 25%; 
+           background-color: hsl(123, 72%, 35%);
+           height: 50px;
+           float: left;
+           padding: 4px solid green;
+           /* box-sizing: border-box; */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        
+        <div class="box">
+            <h2>Box Model</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, voluptas.</p>
+        </div>
+        
+        <div class="box">
+            <h2>Box Model</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, voluptas.</p>
+        </div>
+
+        
+    </div>
+
+    <div class="blocks"> 
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+    </div>
+
+</body>
+</html>

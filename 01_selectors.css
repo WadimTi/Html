@@ -1,0 +1,39 @@
+/*Tag name*/
+
+h1 {
+    color: red;
+}
+body{
+    color: #0f141e;
+    background-color:  #f1f1f1;
+}
+
+header{
+    border: 1px solid; color: gray;
+}
+
+.card{
+    padding: 10px;
+    background: #fff;
+    
+    margin-bottom: 30px;
+}
+
+.card p{
+    font-size: 30px;
+}
+
+#header{
+    background: #ddd;
+    padding: 10px;
+}
+
+.html{
+    background: rgb(221 75 37);
+    color: white;
+}
+
+.css{
+    background: #254bdd;
+    color: white;
+}

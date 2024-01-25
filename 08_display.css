@@ -1,0 +1,10 @@
+.inline li{
+    display: inline;
+}
+
+.box{
+    width: 33%;
+    border: 1px solid black;
+    background: #f4f4f4;
+    display: inline-block;
+}

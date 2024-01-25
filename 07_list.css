@@ -1,0 +1,51 @@
+.list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list li{
+
+    margin-bottom: 10px;
+    border-bottom: 1px solid orangered;
+}
+
+.table{
+    width: 100%;
+}
+
+.table td{
+ text-align: center;
+}
+
+.table td:hover{
+    background-color: antiquewhite;
+}
+
+ .table tr:nth-child(even){
+ background: #eee;
+}
+
+.navbar{
+    background-color: lightcoral;
+    /* padding: 10px 20px; */
+    margin-bottom: 10px;
+}
+
+.navbar ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li{
+    margin: 10px;
+    padding: 20px;
+}
+
+.navbar ul li:hover{
+    background-color: rgba(238, 8, 8, 0.396);
+}
+
+
